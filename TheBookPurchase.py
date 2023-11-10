@@ -1,0 +1,9 @@
+COSTOFBOOK = 24.95
+DISCOUNTCOSTOFBOOK = 0.4
+SHIPPINGCOSTFIRSTBOOK = 3
+SHIPPINGCOSTADDITIONALBOOK = 0.75
+
+numberBooks = int(input("Number of Books: "))
+cost = numberBooks*COSTOFBOOK*(1-DISCOUNTCOSTOFBOOK)
+shippingcost = SHIPPINGCOSTFIRSTBOOK+((numberBooks-1)*SHIPPINGCOSTADDITIONALBOOK)
+print(f"{cost+shippingcost:.2f}")
