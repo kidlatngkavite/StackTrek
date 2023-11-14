@@ -1,6 +1,3 @@
-costEgg = 7
-costTray = 70
-
 principal = float(input("Loan Amount: "))
 interestRate = float(input("Interest Rate: "))
 years = int(input("Years: "))

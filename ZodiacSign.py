@@ -1,5 +1,6 @@
-month = input("Month: ")
 day = int(input("Day: "))
+month = input("Month: ")
+
 
 
 if month == "january":
@@ -19,7 +20,7 @@ elif month == "march":
          sign = "Ares"         
 elif month == "april":
     if day >= 1 and day <= 19 :
-        sign = "Ares"
+        sign = "Aries"
     else:
          sign = "Taurus"      
 elif month == "may":
